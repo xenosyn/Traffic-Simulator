@@ -2,3 +2,4 @@ gcc -ansi -c Queue.c -o Queue.o
 gcc -ansi -c runOneSimulation.c -o runOneSimulation.o
 gcc -ansi -c runSimulations.c -o runSimulations.o
 gcc Queue.o runOneSimulation.o runSimulations.o -lgsl -lgslcblas -o runSimulations
+./runSimulations
